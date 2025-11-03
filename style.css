@@ -79,3 +79,13 @@ body {
 img.rounded-circle {
   border: 5px solid #e9ecef;
 }
+
+.card {
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
