@@ -7,3 +7,38 @@ body {
   background-color: #0d6efd;
   color: white;
 }
+
+#menu-toggle {
+  display: none;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-basis: auto;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+
+  #menu-toggle:checked + .navbar-toggler + .navbar-collapse {
+    display: flex;
+  }
+}
+
+.navbar .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd !important;
+}
+
