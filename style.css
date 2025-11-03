@@ -19,7 +19,7 @@ body {
   transform: scale(1.05);
 }
 
-/* === NAVBAR === */
+
 #menu-toggle {
   display: none;
 }
@@ -56,7 +56,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* === HERO SECTION === */
+
 .hero-section {
   background: linear-gradient(180deg, #ffffff, #f8f9fa);
   min-height: 100vh;
