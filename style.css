@@ -89,3 +89,10 @@ img.rounded-circle {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+
+footer {
+  background: white;
+  color: #6c757d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
